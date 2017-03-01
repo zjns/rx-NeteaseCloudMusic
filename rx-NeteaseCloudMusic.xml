@@ -1,11 +1,11 @@
 <prescription xmlns="http://greenify.github.io/schemas/prescription/v2" type="service" sender="any" package="com.netease.cloudmusic">
-	<intent-filter>
+	<component-filter>
 		<action name="com.netease.cloudmusic.services.PushService" />		
-	</intent-filter>
-	<intent-filter>
+	</component-filter>
+	<component-filter>
 		<action name="com.xiaomi.mipush.sdk.MessageHandleService" />
-	</intent-filter>
-	<intent-filter>
+	</component-filter>
+	<component-filter>
 		<action name="com.xiaomi.push.service.XMPushService" />
-	</intent-filter>
+	</component-filter>
 </prescription>
