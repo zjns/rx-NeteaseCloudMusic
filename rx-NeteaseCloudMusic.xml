@@ -5,4 +5,7 @@
 	<intent-filter>
 		<action name="com.xiaomi.mipush.sdk.MessageHandleService" />
 	</intent-filter>
+	<intent-filter>
+		<action name="com.xiaomi.push.service.XMPushService" />
+	</intent-filter>
 </prescription>
