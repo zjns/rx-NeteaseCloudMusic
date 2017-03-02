@@ -4,4 +4,10 @@
 	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMPushService" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMJobService" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushService" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushBootReceiver" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushEventReceiver" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.xiaomi.push.service.receivers.NetworkStatusReceiver" sender="any" />
+	<prescription type="broadcast" package="com.netease.cloudmusic" class="com.xiaomi.push.service.receivers.PingReceiver" sender="any" />
 </prescriptions>
