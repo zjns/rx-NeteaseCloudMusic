@@ -1,6 +1,7 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v2">
 	<prescription type="service" package="com.netease.cloudmusic" class="com.netease.cloudmusic.service.PushService" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.mipush.sdk.MessageHandleService" sender="any" />
+	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.mipush.sdk.PushMessageHandler" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMPushService" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMJobService" sender="any" />
 	<prescription type="service" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushService" sender="any" />
